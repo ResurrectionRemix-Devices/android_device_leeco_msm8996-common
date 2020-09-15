@@ -6,7 +6,20 @@
 
     <!-- Use default display mode -->
     <integer name="config_defaultLiveDisplayMode">0</integer>
+	
+    <!-- Does the battery LED support multiple colors?
+         Used to decide if the user can change the colors -->
+    <bool name="config_multiColorBatteryLed">true</bool>
 
+    <bool name="config_ledCanPulse">true</bool>
+
+    <!-- Do the battery/notification LEDs support pulsing?
+         Used to decide if we show pulse settings -->
+    <bool name="config_canForceDozeNotifications">true</bool>
+
+    <!-- Whether or not swipe up gesture's opt-in setting is available on this device -->
+    <bool name="config_custom_swipe_up_gesture_setting_available">true</bool>
+	
     <!-- Display mode remapping table.
          If the mode names returned by the backend do not match
          the predefined and translated strings in the Settings
