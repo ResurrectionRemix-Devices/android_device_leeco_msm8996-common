@@ -1,10 +1,10 @@
 [
  {
-   "repository":  "RR/android_kernel_leeco_msm8996",
+   "repository":  "ResurectionRemix-Devices/android_kernel_leeco_msm8996",
    "target_path": "kernel/leeco/msm8996"
  },
  {
-   "repository":  "RR/proprietary_vendor_leeco",
+   "repository":  "ResurectionRemix-Devices/proprietary_vendor_leeco",
    "target_path": "vendor/leeco"
  }
 ]
