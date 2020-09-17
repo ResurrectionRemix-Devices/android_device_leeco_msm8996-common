@@ -11,7 +11,16 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
+    <string name="app_title">App privacy</string>
+    <string name="battery_settings_title">Battery</string>   
+    <string name="camera_hal3_summary">Disabling HAL3 will force the usage of HAL1 instead. Please note that all Gcam's require HAL3 and you must wait a short time before using a Gcam app as it will take time to restart the camera HAL and Service.</string>
     <string name="camera_hal3_title">Disable/Enable HAL3</string>
-    <string name="camera_hal3_summary">Disabling HAL3 will switch to HAL1 instead. Remember that Gcams require HAL3 and you must wait some time till using a camera app as it will need to restart the camera HAL and Service.</string>
+    <string name="camera_pref_title">Camera</string>
+    <string name="prefs_app_options_summary">Options for app notifications</string>
+    <string name="prefs_app_options_title">Notification Guard</string>
+    <string name="prefs_app_unknown_summary">Installation options for unknown apps</string>
+    <string name="prefs_app_unknown_title">Unknown apps</string>
+    <string name="prefs_battery_saver_summary">Battery optimization for system apps</string>
+    <string name="prefs_battery_saver_title">Apps optimization</string>
 </resources>
