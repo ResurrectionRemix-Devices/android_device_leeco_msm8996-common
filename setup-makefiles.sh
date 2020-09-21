@@ -24,7 +24,7 @@ INITIAL_COPYRIGHT_YEAR=2016
 MY_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}" )" && pwd)
 if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 
-RR_ROOT="${MY_DIR}/../../.."
+LINEAGE_ROOT="${MY_DIR}/../../.."
 CLEANUP="$1"
 
 HELPER="${RR_ROOT}/vendor/rr/build/tools/extract_utils.sh"
@@ -35,7 +35,7 @@ fi
 source "${HELPER}"
 
 # Initialize the helper for common
-setup_vendor "${DEVICE_COMMON}" "${VENDOR}" "${RR_ROOT}" "true" "${CLEANUP}"
+setup_vendor "${DEVICE_COMMON}" "${VENDOR}" "${LINEAGE_ROOT}" "true" "${CLEANUP}"
 
 # Copyright headers and guards
 write_headers "zl1 x2"
@@ -57,7 +57,7 @@ write_footers
 # Reinitialize the helper for msm8996-common/${device}
 (
 	INITIAL_COPYRIGHT_YEAR="${DEVICE_BRINGUP_YEAR}"
-	setup_vendor "${DEVICE}" "${VENDOR}" "${RR_ROOT}" false "${CLEANUP}"
+	setup_vendor "${DEVICE}" "${VENDOR}" "${LINEAGE_ROOT}" false "${CLEANUP}"
 
 	# Copyright headers and guards
 	write_headers
