@@ -68,4 +68,12 @@
     <integer name="config_sysCPUTempMultiplier">1000</integer>
     <integer name="config_sysBatteryTempMultiplier">1000</integer>
 	
+	<!-- Smart charge sysfs node and value for suspend/resume charging-->
+    <integer name="config_smartChargingBatteryLevel">90</integer>
+    <integer name="config_smartChargingBatteryResumeLevel">30</integer>
+    <bool name="config_smart_battery_available">true</bool>
+    <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/charging_enabled</string>
+    <string name="config_SmartChargingSupspendValue" translatable="false">0</string>
+    <string name="config_SmartChargingResumeValue" translatable="false">1</string>
+	
 </resources>
