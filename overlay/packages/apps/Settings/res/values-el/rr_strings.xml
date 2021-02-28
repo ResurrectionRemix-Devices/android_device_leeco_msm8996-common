@@ -12,4 +12,16 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="rr_maintainer_title" translatable="false">Συντηρητής συσκευής LeMax2</string>
+	
+	<!-- Smart charging -->
+    <string name="rr_charging_title">Φόρτιση</string>
+	<string name="smart_charging_title">Έξυπνη φόρτιση</string>
+    <string name="smart_charging_summary">Ορισμός ανώτατου επιπέδου φόρτισης</string>
+    <string name="smart_charging_switch_title">Χρήση έξυπνης φόρτισης</string>
+    <string name="smart_charging_level_title">Διακόπτης παύσης επιπέδου</string>
+    <string name="smart_charging_resume_level_title">Διακόπτης έναρξης επιπέδου</string>
+    <string name="smart_charging_reset_stats_title">Διαγραφή στατιστικών μπαταρίας</string>
+    <string name="smart_charging_reset_stats_summary">Διαγραφή στατιστικών μπαταρίας, όταν το επίπεδο φόρτισης που έχει επιλέξει ο χρήστης, έχει επιτευχθεί</string>
+    <string name="smart_charging_footer">Η έξυπνη φόρτιση σας επιτρέπει να ορίστε το μέγιστο επίπεδο φόρτισης, ώστε να επεκτείνεται την ζωή της μπαταρίας σας.</string>
+	
 </resources>
